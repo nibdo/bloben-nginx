@@ -37,4 +37,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: bloben/nginx:${{ steps.tag_version.outputs.VERSION }}
+          tags: bloben/nginx:${{ steps.tag_version.outputs.VERSION }}, bloben/nginx:latest
