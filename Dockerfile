@@ -1,4 +1,4 @@
-FROM debian:11.2-slim
+FROM debian:11.4-slim
 
 WORKDIR /
 RUN apt-get update
@@ -13,5 +13,5 @@ COPY node_install ./
 RUN sh ./node_install
 
 RUN npm i pm2@5.2.0 -g
-RUN npm i typeorm@0.2.44 -g
+RUN npm i typeorm@0.3.7 -g
 
