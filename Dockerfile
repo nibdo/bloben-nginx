@@ -14,4 +14,3 @@ RUN sh ./node_install
 
 RUN npm i pm2@5.2.0 -g
 RUN npm i typeorm@0.3.7 -g
-
