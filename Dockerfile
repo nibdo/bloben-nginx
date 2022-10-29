@@ -12,5 +12,5 @@ RUN apt-get install gpg -y
 COPY node_install ./
 RUN sh ./node_install
 
-RUN npm i pm2@5.2.0 -g
+RUN npm i pm2@5.2.2 -g
 RUN npm i typeorm@0.3.10 -g
